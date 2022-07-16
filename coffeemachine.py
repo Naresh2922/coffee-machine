@@ -39,18 +39,6 @@ def clear():
     os.system(command)
 
 
-def water(word):
-    return word["water"]
-
-
-def milk(word):
-    return word["milk"]
-
-
-def coffee(word):
-    return word["coffee"]
-
-
 def get_value(ke, from_data):
     for key, value in from_data.items():
         if ke == key:
